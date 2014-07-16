@@ -1,4 +1,5 @@
 Makefile
+metric_eval
 Makefile.debug
 bsgd
 bsgd_baseline_prepare

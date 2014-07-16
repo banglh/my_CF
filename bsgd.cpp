@@ -208,7 +208,7 @@ void print_config_to_file(std::ofstream & f) {
 
 int main(int argc, const char ** argv) {
 
-	bool logMode = false;
+	bool logMode = true;
 
 	//* GraphChi initialization will read the command line arguments and the configuration file. */
 	graphchi_init(argc, argv);
