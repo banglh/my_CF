@@ -168,7 +168,7 @@ void parse_command_line_args() {
 	halt_on_minor_improvement = get_option_float("halt_on_minor_improvement", 0.0);
 	init_features_type = get_option_int("init_features_type", 3);
 	dataset = get_option_string("dataset", "");
-	experiment = get_option_int("experiment");
+	experiment = get_option_int("experiment", 0);
 	run = get_option_int("run", 0);
 	// update train, test, validation file name
 	std::stringstream train_ss;
